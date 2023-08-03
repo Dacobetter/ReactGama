@@ -6,7 +6,7 @@ import Cart from './components/Cart/Cart';
 import Error404 from './Error404';
 import CartContextProvider from './components/Cart/CartContext';
 import './App.css'
-import Checkout from './components/checkout';
+import Checkout from './components/Checkout'
 import { Footer } from './components/Footer';
 
 
