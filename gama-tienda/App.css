@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+   background-color: #8d2ce9;
+   position: sticky;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 50px;
+   z-index: 1;
+   box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.11);
+   -webkit-box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.11);
+   -moz-box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.11); }
+    .navbar a {
+      text-decoration: none; }
+      .navbar h1 {
+      font-size: 50px;
+      font-weight: 700;
+      color: black;
+      margin: 5px;
+      &:hover {
+        color: antiquewhite;
+        transition: 0.3s; }
+       
+}
+.hero {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    color: black;
+    background-image: url("../img/hero-imagen.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    font-size: 20px;
+    margin-bottom: 100px; }
+.link{
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    padding-top: 10px;
+    .li{
+        &:hover {
+            color: antiquewhite;
+            transition: 0.3s; }
+    }
+}
+
+.carrito {
+    width: 60px;
+    height: 60px;
+}
+.link nav a {
+    list-style: none;
+    font-size: 20px;
+    color:black;
+    margin: 10px;
+
+}
+.card{
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    height: 470px;
+    border: 2px solid #8d2ce9;
+    
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 1px 1px 36px 3px rgba(0,0,0,0.59);
+        -webkit-box-shadow: 1px 1px 36px 3px rgba(0,0,0,0.59);
+        -moz-box-shadow: 1px 1px 36px 3px rgba(0,0,0,0.59);
+        transition: 0.2s;
+    }}
+.card-img-top{
+    width: 395px;
+    height: 280px;
+    object-fit: contain;
+    
+}
+.itemDetail-img{
+    width: 550px;
+    height: 450px;
+}
+
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+footer{
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  padding: 2px 0;
+  justify-content: space-around;
+  align-items: center;
+}
