@@ -1,7 +1,8 @@
 
 import CartWidget from "./Cart/CartWidget";
 import { Link } from "react-router-dom";
-import '../App.css'
+
+
 const Navbar = ({cartCount}) =>{
     return(
         <header className="navbar">
