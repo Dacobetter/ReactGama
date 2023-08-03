@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useLocation } from 'react-router-dom'
 import { doc, getDoc, getFirestore } from 'firebase/firestore'
-import ItemDetail from '../Item/ItemDetail'
+import ItemDetail from './ItemDetail'
 import Loader from '../Loader'
 import { Hero } from '../Hero'
 

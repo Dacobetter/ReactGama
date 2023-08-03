@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { Link } from "react-router-dom";
 import { CartContext } from '../Cart/CartContext';
-import Modificador from '../Item/Modificador'
+import Modificador from './Modificador'
 
 
 function ItemDetail({ product }) {
