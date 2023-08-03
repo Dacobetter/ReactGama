@@ -4,7 +4,7 @@ import ItemListContainer from './components/Item/ItemListContainer';
 import ItemDetailContainer from './components/Item/ItemDetailContainer';
 import Cart from './components/Cart/Cart';
 import Error404 from './Error404';
-import CartContextProvider from './components/cart/CartContext';
+import CartContextProvider from './components/Cart/CartContext';
 import './App.css'
 import Checkout from './components/checkout';
 import { Footer } from './components/Footer';

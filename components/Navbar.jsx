@@ -6,7 +6,7 @@ const Navbar = ({cartCount}) =>{
     return(
         <header className="navbar">
             <div className="">
-            <Link to="/"><a href=""><h1>Gama</h1></a></Link>
+            <Link to="/"><h1>Gama</h1></Link>
             </div>
             <div className="link">
                 <nav>
